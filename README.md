@@ -31,13 +31,19 @@ The U-Net is a deep learning model used for semantic segmentation, designed to i
 
 ![Classification_report](Classification_report.png)
 
+Note that, the accuracy of the model is almost 90%. This means the model could conduct the identification by semantic segmentation very well.
+
 - Epoch Accuracy (Train versus Validation):
 
 ![Epoch_Accuracy](epoch_accuracy.png)
 
+Before the model has been test for the identification, it must be trained first. As you can see, the trained model could achieved over 90 percent accuracy. In addition, the gap between train and validation run at last epoch is small, meaning the model is still in a good fit due to the U-Net Model Architecture.
+
 - Epoch Loss (Train versus Validation):
 
 ![Epoch_Loss](epoch_loss.png)
+
+As the accuracy has become better, the loss has decreased. Furthermore, the U-Net Model Architecture has helped to shrink the gap between the train and the validation to ensure the model in the good fit.
 
 - Results of predicted segmented of cell nuclei:
 
